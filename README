@@ -1,0 +1,60 @@
+AA Homework - Min Path (all to all) 
+
+Student: Preda Diana
+Group: 324CA
+
+Code Source:
+
+Dijkstra Algorithm:
+Source: https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/ 
+Floyd-Warshall Algorithm 
+Source: https://www.programiz.com/dsa/floyd-warshall-algorithm
+Johnson Algorithm
+Source: https://www.geeksforgeeks.org/johnsons-algorithm-for-all-pairs-shortest-paths-implementation/
+Bellman-Ford Algorithm
+Source:  https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/
+
+Implementation:
+
+Dijkstra
+- We implement Dijkstra's single source shortest path algorithm
+for a graph represented using adjacency matrix representation
+- dist[i] will hold the shortest distance from src to dest;
+- sptSet[i] will be true if vertex i is included in shortest
+path tree or shortest distance from src to i is finalized;
+- Distance of source vertex from itself is always 0;
+- We find shortest path for all vertices;
+- We pick the minimum distance vertex from the set of vertices not
+yet processed. u is always equal to src in the first iteration;
+- Mark the picked vertex as processed;
+- Update dist value of the adjacent vertices of the picked vertex
+- Use formula: dist[i] + graf[i][j] < dist[j];
+
+Floyd-Warshall
+- dist[][] contains the shortest distances between every pair of vertices;
+- Initialize the solution matrix same as input graph matrix;
+- Add all vertices one by one to the set of intermediate vertices;
+- Pick all vertices as source once;
+- Pick all vertices as destination for the above picked source;
+- If vertex k is on the shortest path from i to j,
+then update the value of dist[i][j];
+-  If distance of any vertex from itself
+becomes negative, then there is a negative weight cycle;
+- Use formula: dist[i][k] + dist[k][j] < dist[i][j];
+
+Johnson
+-  We use Bellman-Ford algorithm calculating the shortest
+distances from the new node to all other vertices;
+- We apply Bellman-Ford for the new graph;
+- We go back to the original graph and reweight the edges;
+- We apply Dijkstra;
+- Use formula: cost = cost_original + h[i] - h[j];
+
+checker.c
+- itterate through input tests;
+
+generator.py
+- helps generating random adjacency lists
+
+utils.c 
+- helps generating adjacency matrix

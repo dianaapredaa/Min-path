@@ -1,0 +1,24 @@
+Floy-Warshall output: 
+      0     -1     -2     -3     -4     -5     -6     -7     -8     -9    -10    -11    -12    -13    -14    -15    -16    -17    -18    -19    -20    -21    -22
+    INF      0     -1     -2     -3     -4     -5     -6     -7     -8     -9    -10    -11    -12    -13    -14    -15    -16    -17    -18    -19    -20    -21
+    INF    INF      0     -1     -2     -3     -4     -5     -6     -7     -8     -9    -10    -11    -12    -13    -14    -15    -16    -17    -18    -19    -20
+    INF    INF    INF      0     -1     -2     -3     -4     -5     -6     -7     -8     -9    -10    -11    -12    -13    -14    -15    -16    -17    -18    -19
+    INF    INF    INF    INF      0     -1     -2     -3     -4     -5     -6     -7     -8     -9    -10    -11    -12    -13    -14    -15    -16    -17    -18
+    INF    INF    INF    INF    INF      0     -1     -2     -3     -4     -5     -6     -7     -8     -9    -10    -11    -12    -13    -14    -15    -16    -17
+    INF    INF    INF    INF    INF    INF      0     -1     -2     -3     -4     -5     -6     -7     -8     -9    -10    -11    -12    -13    -14    -15    -16
+    INF    INF    INF    INF    INF    INF    INF      0     -1     -2     -3     -4     -5     -6     -7     -8     -9    -10    -11    -12    -13    -14    -15
+    INF    INF    INF    INF    INF    INF    INF    INF      0     -1     -2     -3     -4     -5     -6     -7     -8     -9    -10    -11    -12    -13    -14
+    INF    INF    INF    INF    INF    INF    INF    INF    INF      0     -1     -2     -3     -4     -5     -6     -7     -8     -9    -10    -11    -12    -13
+    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF      0     -1     -2     -3     -4     -5     -6     -7     -8     -9    -10    -11    -12
+    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF      0     -1     -2     -3     -4     -5     -6     -7     -8     -9    -10    -11
+    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF      0     -1     -2     -3     -4     -5     -6     -7     -8     -9    -10
+    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF      0     -1     -2     -3     -4     -5     -6     -7     -8     -9
+    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF      0     -1     -2     -3     -4     -5     -6     -7     -8
+    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF      0     -1     -2     -3     -4     -5     -6     -7
+    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF      0     -1     -2     -3     -4     -5     -6
+    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF      0     -1     -2     -3     -4     -5
+    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF      0     -1     -2     -3     -4
+    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF      0     -1     -2     -3
+    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF      0     -1     -2
+    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF      0     -1
+    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF      0

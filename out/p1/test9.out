@@ -1,0 +1,21 @@
+Floy-Warshall output: 
+      0     -7    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF
+      7      0    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF
+    INF    INF      0     43      9     86    INF     87    INF    157    210     33    INF     34      4    INF    INF     44    176    208
+    INF    INF     47      0      4     43    INF     44    INF    114    205     28    INF     81     51    INF    INF     39    171    203
+    INF    INF    INF    INF      0    INF    INF    INF    INF    INF    201     24    INF    INF    254    INF    INF     35    167    199
+    INF    INF      4     47     13      0    INF      1    INF    161    214      3    INF     38      8    INF    INF     48    180    212
+    INF    INF    INF    INF    INF    INF      0    INF    INF      3    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF
+    INF    INF      3     46     12     89    INF      0    INF    160    213     36    INF     37      7    INF    INF     47    179    211
+    INF    INF    INF    INF    INF    INF    INF    INF      0    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF
+    INF    INF    INF    INF    INF    INF    INF    INF    INF      0    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF
+    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF      0    INF    INF    INF    INF    INF    INF    INF     32     64
+    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF      0    INF    INF    INF    INF    INF    INF    INF    INF
+    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF      0    INF    INF    INF    INF    INF    INF    INF
+    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF      0    INF    INF    INF    INF    INF    INF
+    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF      0    INF    INF    INF    INF    INF
+    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF      0    INF    INF    INF    INF
+    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF     32    INF      0    INF    INF    INF
+    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF    166    INF    INF    INF    INF    INF    INF      0    132    164
+    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF     34    INF    INF    INF    INF    INF    INF    INF      0     32
+    INF    INF    INF    INF    INF    INF    INF    INF    INF    INF      2    INF    INF    INF    INF    INF    INF    INF     34      0
